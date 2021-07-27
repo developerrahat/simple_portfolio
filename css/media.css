@@ -1,0 +1,111 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+     /* header dropdown menu css */
+     .my-menu li ul{
+        top:20px;
+        left:70px;     
+    }
+     .my-menu li a {
+        margin: 14px 0;      
+     }
+    /* slider media css */
+    .slider-text{
+        margin-top:20px;
+    }
+    .slider-text h1{
+        font-size: 40px;
+    }
+    .slider-text span{
+        font-size: 40px;
+    }
+    /* about sec media css */
+    .a-title{
+        margin-bottom:60px;
+    }
+    .a-title{
+        width: 100%;
+    }
+    .about-text h1{
+        font-size:26px;
+        margin-bottom: 20px;
+        font-weight: 700;
+    }
+    .custom-indicator [data-bs-target] {
+        width:10px;
+        height: 10px;
+        margin-right: 3px;
+        margin-left: 3px;
+    }
+    .contact-item{
+        padding:20px;
+    }
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    /*header dropdown menu css */
+    .my-menu li ul{
+        top:20px;
+        left:70px;      
+    }
+    .my-menu li a {
+        margin: 14px 0;
+            
+    }
+    /* slider media css */
+    .slider-text{
+        margin-top:20px;
+    }
+    /* about media css */
+    .a-title{
+        margin-bottom:60px;
+    }
+    .custom-indicator [data-bs-target] {
+        width:12px;
+        height: 12px;
+        margin-right: 3px;
+        margin-left: 3px;
+    }
+ }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    /*header dropdown menu css */
+    .my-menu li ul{
+       top:20px;
+       left:70px;   
+    }
+    .my-menu li a {
+        margin: 14px 0;
+        
+    }
+    /* slider media css */
+    .slider-text{
+        margin-top:30px;
+    }
+    .a-title{
+        margin-bottom:60px;
+    }
+  
+    .custom-indicator [data-bs-target] {
+        width:14px;
+        height: 14px;
+        margin-right: 4px;
+        margin-left: 4px;
+    }
+ }
+
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    
+ }
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) { 
+   
+ }
+
+ /* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { 
+
+ }
